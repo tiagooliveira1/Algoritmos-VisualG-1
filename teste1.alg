@@ -9,11 +9,10 @@ var
 inicio
 // Seção de Comandos 
 teste <- 1;
-escreva ("Digite seu nome: ")
+escreval("Querido usuário, queira por gentileza seu lindo nome: ")
 leia (nome)
-//nome <- "Tiago"
 se teste = 1 entao
-escreva (nome)
+   escreva ("Seu lindo nome é "+nome)
 fimse
 
 fimalgoritmo
