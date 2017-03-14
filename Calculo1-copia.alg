@@ -4,7 +4,7 @@ algoritmo "semnome"
 // Data : 13/03/2017
 // Seção de Declarações 
 var
-  valorA, valorB, valorC, valorD, valorE, valorF, valorG, valorH: Real
+  valorA, valorB, valorC, valorD, valorE, valorF, valorG: Real
 inicio
 // Seção de Comandos 
 escreva("Informe o primeiro número:")
@@ -14,11 +14,8 @@ leia(valorB)
 valorC <- valorA + valorB
 valorD <- valorA - valorB
 valorE <- valorA * valorB
-se (valorA <> 0) e (valorB <> 0) entao
-   valorF <- valorA / valorB
-fimse
+valorF <- valorA / valorB
 valorG <- valorA ^ valorB
-valorH <- valorA ^ (1 / valorB)
 
 escreva("Soma:          ")
 escreval( valorC)
