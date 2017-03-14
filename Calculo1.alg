@@ -4,7 +4,7 @@ algoritmo "semnome"
 // Data : 13/03/2017
 // Seção de Declarações 
 var
-  valorA, valorB, valorC: Real
+  valorA, valorB, valorC, valorD, valorE, valorF, valorG: Real
 inicio
 // Seção de Comandos 
 escreva("Informe o primeiro número:")
@@ -12,6 +12,14 @@ leia(valorA)
 escreva("Informe o segundo número:")
 leia(valorB)
 valorC <- valorA + valorB
-escreva("Resultado: ")
-escreva( valorC)
+valorD <- valorA - valorB
+valorE <- valorA * valorB
+valorF <- valorA / valorB
+valorG <- valorA ^ valorB
+
+escreva("Soma: ")
+escreval( valorC)
+escreva("Subtração: ")
+escreval( valorD)
+
 fimalgoritmo
