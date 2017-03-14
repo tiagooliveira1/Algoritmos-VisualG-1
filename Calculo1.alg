@@ -7,18 +7,21 @@ var
   valorA, valorB, valorC, valorD, valorE, valorF, valorG, valorH: Real
 inicio
 // Seção de Comandos 
-escreva("Informe o primeiro número:")
+escreva("Informe o valor de A:")
 leia(valorA)
-escreva("Informe o segundo número:")
+escreva("Informe o valor de B:")
 leia(valorB)
 valorC <- valorA + valorB
 valorD <- valorA - valorB
 valorE <- valorA * valorB
 se (valorA <> 0) e (valorB <> 0) entao
    valorF <- valorA / valorB
+   valorH <- valorA ^ (1 / valorB)
+senao
+     escreval("ATENÇÃO: Valor não pode ser 0")
 fimse
 valorG <- valorA ^ valorB
-valorH <- valorA ^ (1 / valorB)
+
 
 escreva("Soma:          ")
 escreval( valorC)
@@ -30,5 +33,7 @@ escreva("Divisão:       ")
 escreval( valorF)
 escreva("Potência:      ")
 escreval( valorG)
+escreva("Raiz:          ")
+escreval( valorH)
 
 fimalgoritmo
