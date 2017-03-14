@@ -11,6 +11,7 @@ escreva("Informe o valor de A:")
 leia(valorA)
 escreva("Informe o valor de B:")
 leia(valorB)
+escreval("")
 valorC <- valorA + valorB
 valorD <- valorA - valorB
 valorE <- valorA * valorB
@@ -19,6 +20,8 @@ se (valorA <> 0) e (valorB <> 0) entao
    valorH <- valorA ^ (1 / valorB)
 senao
      escreval("ATENÇÃO: Valor não pode ser 0")
+     valorF <- 0
+     valorH <- 0
 fimse
 valorG <- valorA ^ valorB
 
